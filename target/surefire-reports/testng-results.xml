@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="tests.LoginTest" duration-ms="13467" started-at="2020-05-05T12:40:55Z" finished-at="2020-05-05T12:41:08Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="13467" started-at="2020-05-05T12:40:55Z" finished-at="2020-05-05T12:41:08Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.LoginTest@6bf256fa]" name="setUp" is-config="true" duration-ms="4033" started-at="2020-05-05T12:40:51Z" finished-at="2020-05-05T12:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializationTest()[pri:0, instance:tests.LoginTest@6bf256fa]" name="initializationTest" duration-ms="6788" started-at="2020-05-05T12:40:55Z" finished-at="2020-05-05T12:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationTest -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:tests.LoginTest@6bf256fa]" name="logOut" duration-ms="3025" started-at="2020-05-05T12:41:02Z" finished-at="2020-05-05T12:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="successLoginTest()[pri:0, instance:tests.LoginTest@6bf256fa]" name="successLoginTest" duration-ms="3634" started-at="2020-05-05T12:41:05Z" finished-at="2020-05-05T12:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@6bf256fa]" name="tearDown" is-config="true" duration-ms="651" started-at="2020-05-05T12:41:08Z" finished-at="2020-05-05T12:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- tests.LoginTest -->
+</testng-results>
