@@ -28,6 +28,9 @@ public class DashboardPage extends AbstractPage {
     @FindBy(xpath = "/html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[3]/a")
     private WebElement tShirtsButton;
 
+    @FindBy (xpath = "/html/body/div/div[2]/div/div[1]/a[2]")
+    private WebElement myAccountButton;
+
     public DashboardPage(WebDriver driver, Logger logger) {
         super(driver, logger);
     }
@@ -68,6 +71,10 @@ public class DashboardPage extends AbstractPage {
 
     public void userLogout(){
         logoutButton.click();
+    }
+
+    public void goBackToDashboardPage(){
+       clickElement(myAccountButton);
     }
 
 }

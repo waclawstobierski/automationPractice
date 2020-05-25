@@ -19,19 +19,28 @@ public class TshirtPage extends AbstractPage {
     @FindBy(xpath = "/html/body/div[2]/div/div/a")
     private WebElement popupCloseButton;
 
+    @FindBy(xpath = "/html/body/div[2]/div")
+    private WebElement fancyBox;
+
+
 
     public TshirtPage(WebDriver driver, Logger logger) {
         super(driver, logger);
     }
 
     public void goToDashboard(){
-        goToDashboardButton.click();
+       clickElement(goToDashboardButton);
     }
 
-    public void viewList(){listIcon.click();}
+    public void viewList(){clickElement(listIcon);}
 
-    public void addToWishlist(){addToWishlistButton.click();}
+    public void addToWishList(){clickElement(addToWishlistButton);}
 
-    public void closePopup(){popupCloseButton.click();}
+    public void closePopup(){clickElement(popupCloseButton);}
+
+    public boolean isFancyBoxDisplayed() {
+        return isElementDisplayed(fancyBox);
+    }
+
 
 }
