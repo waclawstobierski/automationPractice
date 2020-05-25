@@ -1,5 +1,6 @@
 package pages;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,8 +16,8 @@ public class WishListPage extends AbstractPage {
     @FindBy(xpath = "//*[@id=\"wishlist_19436\"]/td[1]/a")
     private WebElement openWishListProductLink;
 
-    public WishListPage(WebDriver driver) {
-        super(driver);
+    public WishListPage(WebDriver driver, Logger logger) {
+        super(driver, logger);
     }
 
     public void backToYourAccount() {

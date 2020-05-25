@@ -1,5 +1,6 @@
 package pages;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,8 +20,8 @@ public class TshirtPage extends AbstractPage {
     private WebElement popupCloseButton;
 
 
-    public TshirtPage(WebDriver driver) {
-        super(driver);
+    public TshirtPage(WebDriver driver, Logger logger) {
+        super(driver, logger);
     }
 
     public void goToDashboard(){

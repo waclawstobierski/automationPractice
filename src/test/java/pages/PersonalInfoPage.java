@@ -13,8 +13,8 @@ public class PersonalInfoPage extends AbstractPage {
     @FindBy(id = "firstname")
     private WebElement firstNameField;
 
-    public PersonalInfoPage(WebDriver driver) {
-        super(driver);
+    public PersonalInfoPage(WebDriver driver, Logger logger) {
+        super(driver, logger);
     }
 
     public void backToYourAccount() {

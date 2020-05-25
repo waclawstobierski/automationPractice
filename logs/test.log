@@ -3,3 +3,72 @@
 [INFO ] 2020-05-16 14:12:29.485 [main] LoginTest - ACTION - Element input with id = 'passwd' was cleared
 [INFO ] 2020-05-16 14:12:29.744 [main] LoginTest - ACTION - Element input with id = 'passwd' was filled using value = 'test1234'
 [INFO ] 2020-05-16 14:12:32.015 [main] LoginTest - ACTION - Element a was checked is displayed
+[INFO ] 2020-05-25 11:26:24.813 [main] LoginTest - ACTION - Element input with id = 'email' was cleared
+[INFO ] 2020-05-25 11:26:25.215 [main] LoginTest - ACTION - Element input with id = 'email' was filled using value = 'waclaw.stobierski@gmail.com'
+[INFO ] 2020-05-25 11:26:25.848 [main] LoginTest - ACTION - Element input with id = 'passwd' was cleared
+[INFO ] 2020-05-25 11:26:26.222 [main] LoginTest - ACTION - Element input with id = 'passwd' was filled using value = 'test1234'
+[INFO ] 2020-05-25 11:29:21.902 [main] LoginTest - ACTION - Element input with id = 'email' was cleared
+[INFO ] 2020-05-25 11:29:22.335 [main] LoginTest - ACTION - Element input with id = 'email' was filled using value = 'waclaw.stobierski@gmail.com'
+[INFO ] 2020-05-25 11:29:23.090 [main] LoginTest - ACTION - Element input with id = 'passwd' was cleared
+[INFO ] 2020-05-25 11:29:23.665 [main] LoginTest - ACTION - Element input with id = 'passwd' was filled using value = 'test1234'
+[INFO ] 2020-05-25 11:30:19.945 [main] LoginTest - ACTION - Element input with id = 'email' was cleared
+[INFO ] 2020-05-25 11:30:20.369 [main] LoginTest - ACTION - Element input with id = 'email' was filled using value = 'waclaw.stobierski@gmail.com'
+[INFO ] 2020-05-25 11:30:20.969 [main] LoginTest - ACTION - Element input with id = 'passwd' was cleared
+[INFO ] 2020-05-25 11:30:21.321 [main] LoginTest - ACTION - Element input with id = 'passwd' was filled using value = 'test1234'
+[INFO ] 2020-05-25 11:31:35.165 [main] LoginTest - ACTION - Element input with id = 'email' was cleared
+[INFO ] 2020-05-25 11:31:35.499 [main] LoginTest - ACTION - Element input with id = 'email' was filled using value = 'waclaw.stobierski@gmail.com'
+[INFO ] 2020-05-25 11:31:36.121 [main] LoginTest - ACTION - Element input with id = 'passwd' was cleared
+[INFO ] 2020-05-25 11:31:36.745 [main] LoginTest - ACTION - Element input with id = 'passwd' was filled using value = 'test1234'
+[INFO ] 2020-05-25 11:32:19.372 [main] LoginTest - ACTION - Element input with id = 'email' was cleared
+[INFO ] 2020-05-25 11:32:19.781 [main] LoginTest - ACTION - Element input with id = 'email' was filled using value = 'waclaw.stobierski@gmail.com'
+[INFO ] 2020-05-25 11:32:20.367 [main] LoginTest - ACTION - Element input with id = 'passwd' was cleared
+[INFO ] 2020-05-25 11:32:20.787 [main] LoginTest - ACTION - Element input with id = 'passwd' was filled using value = 'test1234'
+[INFO ] 2020-05-25 11:34:58.064 [main] LoginTest - ACTION - Element input with id = 'email' was cleared
+[INFO ] 2020-05-25 11:34:58.674 [main] LoginTest - ACTION - Element input with id = 'email' was filled using value = 'waclaw.stobierski@gmail.com'
+[INFO ] 2020-05-25 11:34:59.633 [main] LoginTest - ACTION - Element input with id = 'passwd' was cleared
+[INFO ] 2020-05-25 11:35:00.259 [main] LoginTest - ACTION - Element input with id = 'passwd' was filled using value = 'test1234'
+[INFO ] 2020-05-25 11:35:03.322 [main] LoginTest - RESULT - successLoginTest - SUCCESS
+[INFO ] 2020-05-25 11:35:05.989 [main] MyAccountSubpageTest - RESULT - myAddressesPageNavigate - SUCCESS
+[INFO ] 2020-05-25 11:35:08.995 [main] MyAccountSubpageTest - RESULT - myCreditPageNavigate - SUCCESS
+[INFO ] 2020-05-25 11:35:11.923 [main] MyAccountSubpageTest - RESULT - orderHistoryNavigate - SUCCESS
+[INFO ] 2020-05-25 11:35:14.724 [main] MyAccountSubpageTest - RESULT - personalInfoPageNavigate - SUCCESS
+[INFO ] 2020-05-25 11:35:18.264 [main] MyAccountSubpageTest - RESULT - wishListPageNavigate - SUCCESS
+[INFO ] 2020-05-25 11:35:21.946 [main] WishListAddItemTest - RESULT - addItemToWishList - SUCCESS
+[INFO ] 2020-05-25 11:39:41.387 [main] LoginTest - ACTION - Element input with id = 'email' was cleared
+[INFO ] 2020-05-25 11:39:41.834 [main] LoginTest - ACTION - Element input with id = 'email' was filled using value = 'waclaw.stobierski@gmail.com'
+[INFO ] 2020-05-25 11:39:42.568 [main] LoginTest - ACTION - Element input with id = 'passwd' was cleared
+[INFO ] 2020-05-25 11:39:43.051 [main] LoginTest - ACTION - Element input with id = 'passwd' was filled using value = 'test1234'
+[INFO ] 2020-05-25 11:42:27.395 [main] LoginTest - ACTION - Element input with id = 'email' was cleared
+[INFO ] 2020-05-25 11:42:27.873 [main] LoginTest - ACTION - Element input with id = 'email' was filled using value = 'waclaw.stobierski@gmail.com'
+[INFO ] 2020-05-25 11:42:28.773 [main] LoginTest - ACTION - Element input with id = 'passwd' was cleared
+[INFO ] 2020-05-25 11:42:29.449 [main] LoginTest - ACTION - Element input with id = 'passwd' was filled using value = 'test1234'
+[INFO ] 2020-05-25 11:48:51.523 [main] LoginTest - ACTION - Element input with id = 'email' was cleared
+[INFO ] 2020-05-25 11:48:51.976 [main] LoginTest - ACTION - Element input with id = 'email' was filled using value = 'waclaw.stobierski@gmail.com'
+[INFO ] 2020-05-25 11:48:52.659 [main] LoginTest - ACTION - Element input with id = 'passwd' was cleared
+[INFO ] 2020-05-25 11:48:53.313 [main] LoginTest - ACTION - Element input with id = 'passwd' was filled using value = 'test1234'
+[INFO ] 2020-05-25 11:54:24.942 [main] LoginTest - ACTION - Element input with id = 'email' was cleared
+[INFO ] 2020-05-25 11:54:25.298 [main] LoginTest - ACTION - Element input with id = 'email' was filled using value = 'waclaw.stobierski@gmail.com'
+[INFO ] 2020-05-25 11:54:25.998 [main] LoginTest - ACTION - Element input with id = 'passwd' was cleared
+[INFO ] 2020-05-25 11:54:26.591 [main] LoginTest - ACTION - Element input with id = 'passwd' was filled using value = 'test1234'
+[INFO ] 2020-05-25 12:08:31.105 [main] LoginTest - ACTION - Element input with id = 'email' was cleared
+[INFO ] 2020-05-25 12:08:31.617 [main] LoginTest - ACTION - Element input with id = 'email' was filled using value = 'waclaw.stobierski@gmail.com'
+[INFO ] 2020-05-25 12:08:32.499 [main] LoginTest - ACTION - Element input with id = 'passwd' was cleared
+[INFO ] 2020-05-25 12:08:33.121 [main] LoginTest - ACTION - Element input with id = 'passwd' was filled using value = 'test1234'
+[INFO ] 2020-05-25 12:08:37.348 [main] LoginTest - RESULT - successLoginTest - SUCCESS
+[INFO ] 2020-05-25 12:08:45.317 [main] MyAccountSubpageTest - RESULT - myAddressesPageNavigate - SUCCESS
+[INFO ] 2020-05-25 12:08:49.021 [main] MyAccountSubpageTest - RESULT - myCreditPageNavigate - SUCCESS
+[INFO ] 2020-05-25 12:08:53.279 [main] MyAccountSubpageTest - RESULT - orderHistoryNavigate - SUCCESS
+[INFO ] 2020-05-25 12:08:57.874 [main] MyAccountSubpageTest - RESULT - personalInfoPageNavigate - SUCCESS
+[INFO ] 2020-05-25 12:09:02.418 [main] MyAccountSubpageTest - RESULT - wishListPageNavigate - SUCCESS
+[INFO ] 2020-05-25 12:09:08.319 [main] WishListAddItemTest - RESULT - addItemToWishList - SUCCESS
+[INFO ] 2020-05-25 12:10:58.606 [main] LoginTest - ACTION - Element input with id = 'email' was cleared
+[INFO ] 2020-05-25 12:10:58.987 [main] LoginTest - ACTION - Element input with id = 'email' was filled using value = 'waclaw.stobierski@gmail.com'
+[INFO ] 2020-05-25 12:10:59.781 [main] LoginTest - ACTION - Element input with id = 'passwd' was cleared
+[INFO ] 2020-05-25 12:11:00.367 [main] LoginTest - ACTION - Element input with id = 'passwd' was filled using value = 'test1234'
+[INFO ] 2020-05-25 12:11:03.696 [main] LoginTest - RESULT - successLoginTest - SUCCESS
+[INFO ] 2020-05-25 12:11:07.325 [main] MyAccountSubpageTest - RESULT - myAddressesPageNavigate - SUCCESS
+[INFO ] 2020-05-25 12:11:11.740 [main] MyAccountSubpageTest - RESULT - myCreditPageNavigate - SUCCESS
+[INFO ] 2020-05-25 12:11:16.299 [main] MyAccountSubpageTest - RESULT - orderHistoryNavigate - SUCCESS
+[INFO ] 2020-05-25 12:11:20.328 [main] MyAccountSubpageTest - RESULT - personalInfoPageNavigate - SUCCESS
+[INFO ] 2020-05-25 12:11:25.196 [main] MyAccountSubpageTest - RESULT - wishListPageNavigate - SUCCESS
+[INFO ] 2020-05-25 12:11:31.894 [main] WishListAddItemTest - RESULT - addItemToWishList - SUCCESS

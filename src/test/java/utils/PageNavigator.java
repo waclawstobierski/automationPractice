@@ -1,14 +1,17 @@
 package utils;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import java.util.ArrayList;
 
 public class PageNavigator {
     private WebDriver driver;
+    private Logger logger;
 
-    public PageNavigator(WebDriver driver) {
+    public PageNavigator(WebDriver driver, Logger logger) {
         this.driver = driver;
+        this.logger = logger;
     }
 
     public void navigateTo(String url) {

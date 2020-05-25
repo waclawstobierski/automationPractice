@@ -3,14 +3,18 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test thread-count="5" verbose="0" name="Command line test(failed)">
     <classes>
-      <class name="tests.MyAccountLinksTest">
+      <class name="tests.MyAccountSubpageTest">
         <methods>
-          <include name="setUp"/>
-          <include name="WebInitialization"/>
-          <include name="OrderHistoryNavigate"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="tearDownMethod"/>
+          <include name="myCreditPageNavigate"/>
+          <include name="orderHistoryNavigate"/>
+          <include name="setUpClass"/>
+          <include name="wishListPageNavigate"/>
+          <include name="personalInfoPageNavigate"/>
         </methods>
-      </class> <!-- tests.MyAccountLinksTest -->
+      </class> <!-- tests.MyAccountSubpageTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

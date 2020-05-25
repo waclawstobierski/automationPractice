@@ -8,9 +8,9 @@ public class WishListAddItemTest extends DefaultTest {
 
 @Test
     public void addItemToWishList(){
-    DashboardPage dashboardPage = new DashboardPage(driver);
+    DashboardPage dashboardPage = new DashboardPage(driver, logger);
     dashboardPage.goToTshirtPage();
-    TshirtPage tshirtPage = new TshirtPage(driver);
+    TshirtPage tshirtPage = new TshirtPage(driver, logger);
     tshirtPage.viewList();
     tshirtPage.addToWishlist();
     tshirtPage.closePopup();

@@ -1,5 +1,6 @@
 package pages;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -27,8 +28,8 @@ public class DashboardPage extends AbstractPage {
     @FindBy(xpath = "/html/body/div/div[1]/header/div[3]/div/div/div[6]/ul/li[3]/a")
     private WebElement tShirtsButton;
 
-    public DashboardPage(WebDriver driver) {
-        super(driver);
+    public DashboardPage(WebDriver driver, Logger logger) {
+        super(driver, logger);
     }
 
     public boolean isDashboardPageDisplayed() {
@@ -37,32 +38,32 @@ public class DashboardPage extends AbstractPage {
 
     public OrderHistoryPage goToOrderHistoryPage() {
         clickElement(historyButton);
-        return new OrderHistoryPage(driver);
+        return new OrderHistoryPage(driver, logger);
     }
 
     public MyCreditPage goToMyCreditPage() {
         clickElement(myCreditButton);
-        return new MyCreditPage(driver);
+        return new MyCreditPage(driver, logger);
     }
 
     public MyAddressesPage goToMyAddressesPage() {
         clickElement(myAddressesButton);
-        return new MyAddressesPage(driver);
+        return new MyAddressesPage(driver, logger);
     }
 
     public PersonalInfoPage goToPersonalInfoPage() {
         clickElement(myPersonalInfoButton);
-        return new PersonalInfoPage(driver);
+        return new PersonalInfoPage(driver, logger);
     }
 
     public WishListPage goToWishListPage() {
         clickElement(myWishListButton);
-        return new WishListPage(driver);
+        return new WishListPage(driver, logger);
     }
 
     public TshirtPage goToTshirtPage() {
         clickElement(tShirtsButton);
-        return new TshirtPage(driver);
+        return new TshirtPage(driver, logger);
     }
 
     public void userLogout(){

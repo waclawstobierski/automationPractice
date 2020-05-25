@@ -1,12 +1,12 @@
 package tests;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 import utils.BaseProperties;
 import utils.CustomFile;
 import utils.CustomScreenshot;
@@ -25,6 +25,7 @@ public abstract class DefaultTest extends BaseProperties {
     protected static Logger logger;
 
     protected static WebDriver driver;
+
     @BeforeSuite
     public void setUp() {
         customFile = new CustomFile();
@@ -38,16 +39,29 @@ public abstract class DefaultTest extends BaseProperties {
         driver.manage().window().maximize();
     }
 
-    @AfterMethod
-    public void tearDownMethod(ITestResult result) {
-        if (result.getStatus() == ITestResult.FAILURE) {
-            customScreenshot.makeScreenshot(driver, customTestResult.getResultScreenshotFileName(result));
-        }
-        }
+    @BeforeClass
+   public void setUpClass() {
+       logger = LogManager.getLogger(this.getClass().getName());
     }
+    @Parameters({"screenshot"})
+    @AfterMethod
+    public void tearDownMethod( ITestResult result, String screenshot) {
+        if (result.getStatus() == ITestResult.FAILURE) {
+            logger.warn(customTestResult.getResultMessageLog(result));
+            customScreenshot.makeScreenshot(driver,customTestResult.getResultScreenshotFileName(result));
+        } else {
+            logger.info(customTestResult.getResultMessageLog(result));
+            if (screenshot.equalsIgnoreCase("true")) {
+                customScreenshot.makeScreenshot(driver, customTestResult.getResultScreenshotFileName(result));
+            }
+        }
+        }
 
-   //@AfterSuite
-  //public void tearDown() {
-      // driver.quit();
-   // }
+
+
+   @AfterSuite
+    public void tearDown() {
+       driver.quit();
+    }
+}
 

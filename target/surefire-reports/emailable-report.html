@@ -9,18 +9,44 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Command line suite</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num">9 517</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">3</td><td class="num attn">4</td><td class="num">0</td><td class="num">23 348</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.MyAccountLinksTest</td><td><a href="#m0">WebInitialization</a></td><td rowspan="1">1589283334975</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">tests.MyAccountLinksTest</td><td><a href="#m1">OrderHistoryNavigate</a></td><td rowspan="1">1589283334976</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.LoginTest</td><td><a href="#m2">successLoginTest</a></td><td rowspan="1">1589283331460</td><td rowspan="1">2643</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.LoginTest</td><td><a href="#m0">tearDownMethod</a></td><td rowspan="1">1590400137309</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">tests.MyAccountSubpageTest</td><td><a href="#m1">tearDownMethod</a></td><td rowspan="1">1590400140883</td><td rowspan="1">0</td></tr><tr class="failedeven"><td rowspan="1">tests.WishListAddItemTest</td><td><a href="#m2">tearDownMethod</a></td><td rowspan="1">1590400146314</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="4">tests.MyAccountSubpageTest</td><td><a href="#m3">tearDownMethod</a></td><td rowspan="4">1590400140890</td><td rowspan="4">0</td></tr><tr class="skippedeven"><td><a href="#m4">tearDownMethod</a></td></tr><tr class="skippedeven"><td><a href="#m5">tearDownMethod</a></td></tr><tr class="skippedeven"><td><a href="#m6">tearDownMethod</a></td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">tests.MyAccountSubpageTest</td><td><a href="#m7">myCreditPageNavigate</a></td><td rowspan="1">1590400140889</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m8">orderHistoryNavigate</a></td><td rowspan="1">1590400140890</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m9">personalInfoPageNavigate</a></td><td rowspan="1">1590400140890</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m10">wishListPageNavigate</a></td><td rowspan="1">1590400140890</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.LoginTest</td><td><a href="#m11">successLoginTest</a></td><td rowspan="1">1590400130833</td><td rowspan="1">6473</td></tr><tr class="passedodd"><td rowspan="1">tests.MyAccountSubpageTest</td><td><a href="#m12">myAddressesPageNavigate</a></td><td rowspan="1">1590400137329</td><td rowspan="1">3553</td></tr><tr class="passedeven"><td rowspan="1">tests.WishListAddItemTest</td><td><a href="#m13">addItemToWishList</a></td><td rowspan="1">1590400140890</td><td rowspan="1">5424</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">tests.MyAccountLinksTest#WebInitialization</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at utils.PageNavigator.navigateTo(PageNavigator.java:15)
-	at tests.MyAccountLinksTest.WebInitialization(MyAccountLinksTest.java:19)
-... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.MyAccountLinksTest#OrderHistoryNavigate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at utils.PageNavigator.navigateTo(PageNavigator.java:15)
-	at tests.MyAccountLinksTest.WebInitialization(MyAccountLinksTest.java:19)
-... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.LoginTest#successLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Command line test</h2><h3 id="m0">tests.LoginTest#tearDownMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @AfterMethod annotated tearDownMethod.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.MyAccountSubpageTest#tearDownMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @AfterMethod annotated tearDownMethod.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.WishListAddItemTest#tearDownMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @AfterMethod annotated tearDownMethod.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.MyAccountSubpageTest#tearDownMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.MyAccountSubpageTest#tearDownMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.MyAccountSubpageTest#tearDownMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.MyAccountSubpageTest#tearDownMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.MyAccountSubpageTest#myCreditPageNavigate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @AfterMethod annotated tearDownMethod.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.MyAccountSubpageTest#orderHistoryNavigate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @AfterMethod annotated tearDownMethod.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.MyAccountSubpageTest#personalInfoPageNavigate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @AfterMethod annotated tearDownMethod.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.MyAccountSubpageTest#wishListPageNavigate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @AfterMethod annotated tearDownMethod.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.LoginTest#successLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.MyAccountSubpageTest#myAddressesPageNavigate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">tests.WishListAddItemTest#addItemToWishList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
