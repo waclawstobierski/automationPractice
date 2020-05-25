@@ -1,0 +1,5 @@
+[INFO ] 2020-05-16 14:12:28.848 [main] LoginTest - ACTION - Element input with id = 'email' was cleared
+[INFO ] 2020-05-16 14:12:29.070 [main] LoginTest - ACTION - Element input with id = 'email' was filled using value = 'waclaw.stobierski@gmail.com'
+[INFO ] 2020-05-16 14:12:29.485 [main] LoginTest - ACTION - Element input with id = 'passwd' was cleared
+[INFO ] 2020-05-16 14:12:29.744 [main] LoginTest - ACTION - Element input with id = 'passwd' was filled using value = 'test1234'
+[INFO ] 2020-05-16 14:12:32.015 [main] LoginTest - ACTION - Element a was checked is displayed

@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 15.22 sec <<< FAILURE!
+WebInitialization(tests.MyAccountLinksTest)  Time elapsed: 3.516 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at utils.PageNavigator.navigateTo(PageNavigator.java:15)
+	at tests.MyAccountLinksTest.WebInitialization(MyAccountLinksTest.java:19)
+
