@@ -374,3 +374,29 @@
 [INFO ] 2020-05-25 16:44:19.439 [main] WishListAddItemTest - ACTION - Element a was clicked
 [INFO ] 2020-05-25 16:44:20.534 [main] WishListAddItemTest - ACTION - Element div was checked is displayed
 [INFO ] 2020-05-25 16:44:20.656 [main] WishListAddItemTest - RESULT - addItemToWishList - SUCCESS
+[INFO ] 2020-05-25 16:55:17.938 [main] LoginTest - ACTION - Element input with id = 'email' was cleared
+[INFO ] 2020-05-25 16:55:18.321 [main] LoginTest - ACTION - Element input with id = 'email' was filled using value = 'waclaw.stobierski@gmail.com'
+[INFO ] 2020-05-25 16:55:18.969 [main] LoginTest - ACTION - Element input with id = 'passwd' was cleared
+[INFO ] 2020-05-25 16:55:19.665 [main] LoginTest - ACTION - Element input with id = 'passwd' was filled using value = 'test1234'
+[INFO ] 2020-05-25 16:55:21.000 [main] LoginTest - ACTION - Element button with id = 'SubmitLogin' was clicked
+[INFO ] 2020-05-25 16:55:23.651 [main] LoginTest - ACTION - Element a was checked is displayed
+[INFO ] 2020-05-25 16:55:23.781 [main] LoginTest - RESULT - successLoginTest - SUCCESS
+[INFO ] 2020-05-25 16:55:24.701 [main] MyAccountSubpageTest - ACTION - Element a was clicked
+[INFO ] 2020-05-25 16:55:26.610 [main] MyAccountSubpageTest - ACTION - Element a was checked is displayed
+[INFO ] 2020-05-25 16:55:29.183 [main] MyAccountSubpageTest - RESULT - myAddressesPageNavigate - SUCCESS
+[INFO ] 2020-05-25 16:55:30.329 [main] MyAccountSubpageTest - ACTION - Element a was clicked
+[INFO ] 2020-05-25 16:55:34.591 [main] MyAccountSubpageTest - RESULT - myCreditPageNavigate - SUCCESS
+[INFO ] 2020-05-25 16:55:35.794 [main] MyAccountSubpageTest - ACTION - Element a was clicked
+[INFO ] 2020-05-25 16:55:38.708 [main] MyAccountSubpageTest - ACTION - Element span was checked is displayed
+[INFO ] 2020-05-25 16:55:40.862 [main] MyAccountSubpageTest - RESULT - orderHistoryNavigate - SUCCESS
+[INFO ] 2020-05-25 16:55:42.022 [main] MyAccountSubpageTest - ACTION - Element a was clicked
+[INFO ] 2020-05-25 16:55:43.825 [main] MyAccountSubpageTest - ACTION - Element input with id = 'firstname' was checked is displayed
+[INFO ] 2020-05-25 16:55:46.416 [main] MyAccountSubpageTest - RESULT - personalInfoPageNavigate - SUCCESS
+[INFO ] 2020-05-25 16:55:47.592 [main] MyAccountSubpageTest - ACTION - Element a was clicked
+[INFO ] 2020-05-25 16:55:50.749 [main] MyAccountSubpageTest - ACTION - Element div with id = 'best-sellers_block_right' was checked is displayed
+[INFO ] 2020-05-25 16:55:53.163 [main] MyAccountSubpageTest - RESULT - wishListPageNavigate - SUCCESS
+[INFO ] 2020-05-25 16:55:54.282 [main] WishListAddItemTest - ACTION - Element a was clicked
+[INFO ] 2020-05-25 16:55:57.838 [main] WishListAddItemTest - ACTION - Element i was clicked
+[INFO ] 2020-05-25 16:55:58.594 [main] WishListAddItemTest - ACTION - Element a was clicked
+[INFO ] 2020-05-25 16:56:01.699 [main] WishListAddItemTest - ACTION - Element div was checked is displayed
+[INFO ] 2020-05-25 16:56:01.826 [main] WishListAddItemTest - RESULT - addItemToWishList - SUCCESS
