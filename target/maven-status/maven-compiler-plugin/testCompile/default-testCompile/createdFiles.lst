@@ -1,7 +1,9 @@
 utils\BaseProperties.class
 pages\LoginPage.class
+tests\MyAccountLinksTest.class
 utils\PageNavigator.class
 pages\AbstractPage.class
 pages\IntroPage.class
 pages\DashboardPage.class
+pages\OrderHistoryPage.class
 tests\LoginTest.class

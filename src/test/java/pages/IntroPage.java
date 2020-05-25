@@ -12,7 +12,6 @@ public class IntroPage extends AbstractPage {
 
     public IntroPage(WebDriver driver) {
         super(driver);
-        initPageElements(driver, this);
     }
 
     public void openLoginForm() {

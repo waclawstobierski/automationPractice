@@ -9,13 +9,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public abstract class AbstractPage {
 
     WebDriver driver;
+
     AbstractPage(WebDriver driver) {
         this.driver = driver;
+        PageFactory.initElements(this.driver, this);
     }
 
-    void initPageElements(WebDriver driver, Object page) {
-        PageFactory.initElements(driver, page);
-    }
 
     boolean isElementDisplayed(WebElement element) {
         return element.isDisplayed();
@@ -28,18 +27,6 @@ public abstract class AbstractPage {
 
     void clickElement(WebElement element) {
         element.click();
-    }
-
-    void selectCheckbox(WebElement element, boolean checked) {
-        if (!element.isSelected()) {
-            if (checked) {
-                element.click();
-            }
-        } else {
-            if (!checked) {
-                element.click();
-            }
-        }
     }
 
     void waitForElementToLoad(WebElement defaultElement) {
