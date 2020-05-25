@@ -4,8 +4,6 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.CustomTestLog;
 
 public abstract class AbstractPage {
@@ -19,8 +17,8 @@ public abstract class AbstractPage {
         PageFactory.initElements(this.driver, this);
     }
 
-
     boolean isElementDisplayed(WebElement element) {
+        logger.info(CustomTestLog.getElementMessage(element, CustomTestLog.IS_DISPLAYED_ACTION));
         return element.isDisplayed();
     }
 
@@ -34,12 +32,7 @@ public abstract class AbstractPage {
     }
 
     void clickElement(WebElement element) {
-//        logger.info(CustomTestLog.getElementMessage(element,CustomTestLog.CLICK_ACTION));
+       logger.info(CustomTestLog.getElementMessage(element,CustomTestLog.CLICK_ACTION));
         element.click();
-    }
-
-    void waitForElementToLoad(WebElement defaultElement) {
-        WebDriverWait wait = new WebDriverWait(driver, 5);
-        wait.until(ExpectedConditions.elementToBeClickable(defaultElement));
     }
 }
