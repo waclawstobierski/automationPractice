@@ -22,6 +22,11 @@ public class TshirtPage extends AbstractPage {
     @FindBy(xpath = "/html/body/div[2]/div")
     private WebElement fancyBox;
 
+    @FindBy(xpath = "/html/body/div/div[1]/header/div[2]/div/div/nav/div[2]/a")
+    private WebElement logoutButton;
+
+    @FindBy(xpath = "/html/body/div/div[1]/header/div[2]/div/div/nav/div[1]/a")
+    private WebElement signInButton;
 
 
     public TshirtPage(WebDriver driver, Logger logger) {
@@ -36,11 +41,19 @@ public class TshirtPage extends AbstractPage {
 
     public void addToWishList(){clickElement(addToWishlistButton);}
 
+
     public void closePopup(){clickElement(popupCloseButton);}
 
     public boolean isFancyBoxDisplayed() {
         return isElementDisplayed(fancyBox);
     }
 
+    public void userLogout(){
+        waitForElementToLoad(logoutButton);
+        logoutButton.click();
+    }
 
+    public boolean isUserLoggedOut() {
+        return isElementDisplayed(signInButton);
+    }
 }

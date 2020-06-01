@@ -52,7 +52,7 @@ public abstract class DefaultTest extends BaseProperties {
         }
         }
 
-        @AfterSuite
+       @AfterSuite
     public void tearDown() {
        driver.quit();
    }

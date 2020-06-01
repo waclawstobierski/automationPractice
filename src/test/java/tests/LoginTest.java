@@ -27,10 +27,3 @@ public class LoginTest extends DefaultTest {
                         .isDashboardPageDisplayed());
     }
 }
-
-    //@AfterTest
-    //public void logOut(){
-     //   DashboardPage dashboardPage = new DashboardPage(driver);
-    //    dashboardPage.userLogout();
-   // }
-   // }

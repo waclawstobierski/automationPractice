@@ -7,7 +7,6 @@ public class CustomFile {
 
     public String getDriverFilePath(String driverFileName) {
         return getResourceFilePath(driverFileName);
-        // return getResourceFilePath("drivers/" + driverFileName);
     }
 
     private String getResourceFilePath(String fileName) {

@@ -69,10 +69,6 @@ public class DashboardPage extends AbstractPage {
         return new TshirtPage(driver, logger);
     }
 
-    public void userLogout(){
-        logoutButton.click();
-    }
-
     public void goBackToDashboardPage(){
        clickElement(myAccountButton);
     }
