@@ -14,7 +14,6 @@ public class CustomTestLog {
     }
 
     public static String getElementMessage(WebElement element, String value, int action) {
-
         String elementTag = "ACTION - Element " +
                 (element.getTagName() != null && element.getTagName().length() > 0 ? element.getTagName() : " without TAG");
 
@@ -34,7 +33,6 @@ public class CustomTestLog {
         } else {
             info = " was used with UNKNOWN action";
         }
-
         return elementTag + elementId + info;
     }
 }

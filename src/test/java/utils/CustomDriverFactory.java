@@ -14,36 +14,21 @@ public class CustomDriverFactory {
         customFile = new CustomFile();
     }
 
-    public WebDriver getConfiguredDriver(String driverType) {
-        return getConfiguredDriver(driverType, BaseProperties.IMPLICITLY_WAIT, BaseProperties.WINDOW_MAXIMIZE);
-    }
-
-    public WebDriver getConfiguredDriver(String driverType, long implicitlyWait) {
-        return getConfiguredDriver(driverType, implicitlyWait, BaseProperties.WINDOW_MAXIMIZE);
-    }
-
-    public WebDriver getConfiguredDriver(String driverType, boolean windowMaximize) {
-        return getConfiguredDriver(driverType, BaseProperties.IMPLICITLY_WAIT, windowMaximize);
-    }
-
     public WebDriver getConfiguredDriver(String browserType, long implicitlyWait, boolean windowMaximize) {
         WebDriver driver;
         if (browserType.equalsIgnoreCase(BaseProperties.CHROME_BROWSER_TYPE)) {
-            // Zdefiniowanie ścieżki dla zewnętrznego drivera przeglądarki Chrome
             System.setProperty("webdriver.chrome.driver", customFile.getDriverFilePath(BaseProperties.CHROME_DRIVER_FILE_NAME));
-            driver = new ChromeDriver(); // inicjalizacja przeglądarką Chrome
+            driver = new ChromeDriver();
         } else if (browserType.equalsIgnoreCase(BaseProperties.FIREFOX_BROWSER_TYPE)) {
-            // Zdefiniowanie ścieżki dla zewnętrznego drivera przeglądarki Firefox
             System.setProperty("webdriver.gecko.driver", customFile.getDriverFilePath(BaseProperties.FIREFOX_DRIVER_FILE_NAME));
-            driver = new FirefoxDriver(); // inicjalizacja przeglądarką Firefox
+            driver = new FirefoxDriver();
         } else {
-            // Zdefiniowanie ścieżki dla zewnętrznego drivera przeglądarki Chrome
             System.setProperty("webdriver.chrome.driver", customFile.getDriverFilePath(BaseProperties.CHROME_DRIVER_FILE_NAME));
-            driver = new ChromeDriver(); // inicjalizacja przeglądarką Chrome
+            driver = new ChromeDriver();
         }
-        driver.manage().timeouts().implicitlyWait(implicitlyWait, TimeUnit.SECONDS); // ustawienie czasu oczekiwania na elementy
+        driver.manage().timeouts().implicitlyWait(implicitlyWait, TimeUnit.SECONDS);
         if (windowMaximize) {
-            driver.manage().window().maximize(); // maksymalizacja okna
+            driver.manage().window().maximize();
         }
         return driver;
     }

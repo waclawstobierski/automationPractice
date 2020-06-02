@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class MyAddressesPage extends AbstractPage{
+public class MyAddressesPage extends AbstractPage {
 
     @FindBy(xpath = "/html/body/div/div[2]/div/div[3]/div/div[2]/a")
     private WebElement addNewAddressButton;
@@ -24,6 +24,4 @@ public class MyAddressesPage extends AbstractPage{
     public boolean isMyAddressesPageDisplayed() {
         return isElementDisplayed(addNewAddressButton);
     }
-
-
 }

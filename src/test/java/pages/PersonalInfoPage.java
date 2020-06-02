@@ -24,6 +24,4 @@ public class PersonalInfoPage extends AbstractPage {
     public boolean isPersonalInfoPageDisplayed() {
         return isElementDisplayed(firstNameField);
     }
-
-
 }

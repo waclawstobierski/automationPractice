@@ -21,9 +21,9 @@ public class MyCreditPage extends AbstractPage {
         backToAccountButton.click();
     }
 
-    public boolean isMyCreditPageDisplayed(){
+    public boolean isMyCreditPageDisplayed() {
         String expectedCreditText = "Credit slips";
         return
-        creditText.equals(expectedCreditText);
+                creditText.equals(expectedCreditText);
     }
 }

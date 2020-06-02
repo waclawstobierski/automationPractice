@@ -13,8 +13,6 @@ public class OrderHistoryPage extends AbstractPage {
     @FindBy(xpath = "/html/body/div/div[2]/div/div[3]/div/ul/li[1]/a")
     private WebElement backToAccountButton;
 
-
-
     public OrderHistoryPage(WebDriver driver, Logger logger) {
         super(driver, logger);
     }

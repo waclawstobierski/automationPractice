@@ -16,8 +16,6 @@ public class WishListPage extends AbstractPage {
     @FindBy(xpath = "//*[@id=\"wishlist_19436\"]/td[1]/a")
     private WebElement openWishListProductLink;
 
-
-
     public WishListPage(WebDriver driver, Logger logger) {
         super(driver, logger);
     }
@@ -29,9 +27,4 @@ public class WishListPage extends AbstractPage {
     public boolean isWishListPageDisplayed() {
         return isElementDisplayed(topSellersBlock);
     }
-
-    public void goToWishListProduct(){
-        openWishListProductLink.click();
-    }
-
 }

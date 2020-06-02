@@ -1,12 +1,11 @@
 package pages;
 
-
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class LoginPage extends AbstractPage{
+public class LoginPage extends AbstractPage {
 
     @FindBy(xpath = "/html/body/div[1]/div[2]/div/div[3]/div/div/div[1]/form/div/div[3]/button")
     private WebElement registerButton;
@@ -24,8 +23,7 @@ public class LoginPage extends AbstractPage{
         super(driver, logger);
     }
 
-
-    public LoginPage fillLoginForm(String email, String password){
+    public LoginPage fillLoginForm(String email, String password) {
         fillElement(emailField, email);
         fillElement(passwordField, password);
         return this;

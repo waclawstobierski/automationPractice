@@ -34,7 +34,7 @@ public abstract class AbstractPage {
     }
 
     void clickElement(WebElement element) {
-       logger.info(CustomTestLog.getElementMessage(element,CustomTestLog.CLICK_ACTION));
+        logger.info(CustomTestLog.getElementMessage(element, CustomTestLog.CLICK_ACTION));
         element.click();
     }
 

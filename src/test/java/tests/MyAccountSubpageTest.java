@@ -6,15 +6,14 @@ import pages.*;
 
 import java.util.Date;
 
-public class MyAccountSubpageTest extends  DefaultTest{
-
+public class MyAccountSubpageTest extends DefaultTest {
 
     @Test
     public void orderHistoryNavigate() {
         Assert.assertTrue(
                 new DashboardPage(driver, logger)
-                .goToOrderHistoryPage()
-                .isOrderHistoryPageDisplayed());
+                        .goToOrderHistoryPage()
+                        .isOrderHistoryPageDisplayed());
         customScreenshot.makeScreenshot(driver,
                 new Date().getTime() + "_" +
                         new LoginTest() {
@@ -28,8 +27,8 @@ public class MyAccountSubpageTest extends  DefaultTest{
     public void myCreditPageNavigate() {
         Assert.assertTrue(
                 new DashboardPage(driver, logger)
-                .goToMyCreditPage()
-                .isMyCreditPageDisplayed());
+                        .goToMyCreditPage()
+                        .isMyCreditPageDisplayed());
         customScreenshot.makeScreenshot(driver,
                 new Date().getTime() + "_" +
                         new LoginTest() {
@@ -40,11 +39,11 @@ public class MyAccountSubpageTest extends  DefaultTest{
     }
 
     @Test
-    public void myAddressesPageNavigate(){
+    public void myAddressesPageNavigate() {
         Assert.assertTrue(
                 new DashboardPage(driver, logger)
-                .goToMyAddressesPage()
-                .isMyAddressesPageDisplayed());
+                        .goToMyAddressesPage()
+                        .isMyAddressesPageDisplayed());
         customScreenshot.makeScreenshot(driver,
                 new Date().getTime() + "_" +
                         new LoginTest() {
@@ -55,26 +54,26 @@ public class MyAccountSubpageTest extends  DefaultTest{
     }
 
     @Test
-    public void personalInfoPageNavigate(){
+    public void personalInfoPageNavigate() {
         Assert.assertTrue(
                 new DashboardPage(driver, logger)
-                .goToPersonalInfoPage()
-                .isPersonalInfoPageDisplayed());
+                        .goToPersonalInfoPage()
+                        .isPersonalInfoPageDisplayed());
         customScreenshot.makeScreenshot(driver,
                 new Date().getTime() + "_" +
                         new LoginTest() {
                         }.getClass().getEnclosingMethod().getName()
                         + "_" + "PERSONAL INFO PAGE SCREEN");
-                PersonalInfoPage personalInfoPage = new PersonalInfoPage(driver, logger);
-                personalInfoPage.backToYourAccount();
+        PersonalInfoPage personalInfoPage = new PersonalInfoPage(driver, logger);
+        personalInfoPage.backToYourAccount();
     }
 
     @Test
-    public void wishListPageNavigate(){
+    public void wishListPageNavigate() {
         Assert.assertTrue(
                 new DashboardPage(driver, logger)
-                .goToWishListPage()
-                .isWishListPageDisplayed());
+                        .goToWishListPage()
+                        .isWishListPageDisplayed());
         customScreenshot.makeScreenshot(driver,
                 new Date().getTime() + "_" +
                         new LoginTest() {
@@ -83,4 +82,4 @@ public class MyAccountSubpageTest extends  DefaultTest{
         WishListPage wishListPage = new WishListPage(driver, logger);
         wishListPage.backToYourAccount();
     }
-    }
+}

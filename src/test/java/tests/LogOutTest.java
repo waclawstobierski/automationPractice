@@ -7,13 +7,13 @@ import pages.TshirtPage;
 public class LogOutTest extends DefaultTest {
 
     @Test
-    public void logOut(){
-      TshirtPage tshirtPage = new TshirtPage(driver, logger);
+    public void logOut() {
+        TshirtPage tshirtPage = new TshirtPage(driver, logger);
         tshirtPage.closePopup();
         tshirtPage.userLogout();
         Assert.assertTrue(
                 tshirtPage.isUserLoggedOut()
         );
-     }
-     }
+    }
+}
 
