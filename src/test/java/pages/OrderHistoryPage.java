@@ -7,8 +7,8 @@ import org.openqa.selenium.support.FindBy;
 
 public class OrderHistoryPage extends AbstractPage {
 
-    @FindBy(xpath = "/html/body/div/div[2]/div/div[1]/span[3]")
-    private WebElement breadCrumb1;
+    @FindBy(xpath = "/html/body/div/div[2]/div/div[3]/div/div/table/tbody/tr/td[6]/a")
+    private WebElement invoiceButton;
 
     @FindBy(xpath = "/html/body/div/div[2]/div/div[3]/div/ul/li[1]/a")
     private WebElement backToAccountButton;
@@ -18,7 +18,7 @@ public class OrderHistoryPage extends AbstractPage {
     }
 
     public boolean isOrderHistoryPageDisplayed() {
-        return isElementDisplayed(breadCrumb1);
+        return isElementDisplayed(invoiceButton);
     }
 
     public void backToYourAccount() {
