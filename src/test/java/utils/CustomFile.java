@@ -10,17 +10,14 @@ public class CustomFile {
     }
 
     private String getResourceFilePath(String fileName) {
-        try {
-            return Paths.get(
+        return
+         Paths.get(
                     new File(getClass()
                             .getClassLoader()
                             .getResource(fileName)
                             .getFile())
                             .getAbsolutePath()).toString();
-        } catch (Exception e) {
-            e.printStackTrace();
-            return "";
-        }
+
     }
 
     public static String getProjectPath() {
